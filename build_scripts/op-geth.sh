@@ -12,8 +12,8 @@ do
 done
 
 client_path=$(pwd)/op-geth
-src_collector_tracer_path=$(pwd)/tracers/bundler_collector.go.template
-src_executor_tracer_path=$(pwd)/tracers/bundler_executor.go.template
+src_collector_tracer_path=$(pwd)/tracers/bundler_collector_next.go.template
+src_executor_tracer_path=$(pwd)/tracers/bundler_executor_next.go.template
 dest_collector_tracer_path=${client_path}/eth/tracers/native/bundler_collector.go
 dest_executor_tracer_path=${client_path}/eth/tracers/native/bundler_executor.go
 
