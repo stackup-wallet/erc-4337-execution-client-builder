@@ -12,8 +12,8 @@ do
 done
 
 client_path=$(pwd)/base-node
-src_collector_tracer_path=$(pwd)/tracers/bundler_collector.go.template
-src_executor_tracer_path=$(pwd)/tracers/bundler_executor.go.template
+src_collector_tracer_path=$(pwd)/tracers/bundler_collector_next.go.template
+src_executor_tracer_path=$(pwd)/tracers/bundler_executor_next.go.template
 dest_collector_tracer_path=${client_path}/bundler_collector.go
 dest_executor_tracer_path=${client_path}/bundler_executor.go
 src_dockerfile_path=${client_path}/geth/Dockerfile
